@@ -24,13 +24,13 @@ download the pre-trained model from google drive [here](https://drive.google.com
 
 ### CIFAR10
 
-`python teacher-finetune-AW.py --dataset cifar10 --model resnet34_8x --scale 1.0 --alpha 0.00001 --ckpt 'path/your/standardCNNmodel'`
+`python teacher-finetune-AW.py --dataset cifar10 --model resnet34_8x --scale 1.0 --alpha 0.00001 --ckpt 'models/CIFAR10.pth'`
 
 ### CIFAR100
 
 `python teacher-finetune-AW.py --dataset cifar100 --model resnet34_8x --scale 0.5 --alpha 0.00001 --ckpt 'models/CIFAR100.pth'`
 
-where 'path/your/standardCNNmodel' is the model downloaded in step 1
+where 'models/CIFAR10.pth' and 'models/CIFAR100.pth' are the model downloaded in step 1
 
 ## Step3: Defense Experiment
 
